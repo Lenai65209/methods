@@ -45,7 +45,7 @@ for page in range(0, pages):
                 salary_lst_max.append(salary_max)
                 salary_lst_min.append(salary_min)
             if 'до' in vacancy_salary[0]:
-                salary_mфч = ''.join(vacancy_salary[1].split('\u202f')).replace(
+                salary_max = ''.join(vacancy_salary[1].split('\u202f')).replace(
                     ' ', '')
                 salary_min = '-'
                 salary_lst_max.append(salary_max)
