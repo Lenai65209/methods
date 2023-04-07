@@ -6,6 +6,7 @@
 import pandas as pd
 import requests
 from lxml import html
+import pprint
 
 url = 'https://arkhangelsk.hh.ru/'
 # data = urllib.request.urlopen('https://arkhangelsk.hh.ru/')
