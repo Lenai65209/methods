@@ -29,10 +29,10 @@ class ShopLSpider(scrapy.Spider):
         ##########################
         goods = response.xpath(
             "//div[contains(@class, 'good-item')]")
-        # print('\n#########################################\n')
-        # print('Товары на странице')
-        # print(goods)
-        # print('\n#########################################\n')
+        print('\n#########################################\n')
+        print('Товары на странице')
+        print(goods)
+        print('\n#########################################\n')
 
         for product in goods:
             # url_product = ''.join(product.xpath(
